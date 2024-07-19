@@ -1,0 +1,35 @@
+.show {
+  display: block !important;
+  visibility: visible !important;
+  height: auto !important;
+}
+
+.badge{
+  background-color: #113250;
+  color: white;
+}
+
+.form-check-input:checked {
+  background-color: #113250;;
+  border-color: #113250;
+}
+
+.shadow-on-hover:hover {
+  box-shadow: 0 10px 5px -5px rgba(255, 255, 255, 0.5);
+  transition: box-shadow 0.3s ease;
+}
+
+.custom-scroll{
+  overflow-y: visible;
+  max-height: 97vh;
+}
+
+.badgewrap{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 90%;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
